@@ -32,7 +32,7 @@ Frontend
 ```
 
 Backend
-```
+```bash
     cd Backend
 ```
     
