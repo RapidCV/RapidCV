@@ -1,2 +1,1 @@
-# Resume-Builder
 # RapidCV
