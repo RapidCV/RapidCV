@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": " nodemon ./build/index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
