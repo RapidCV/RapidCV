@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import pages from "./pages/pages";
-import Footer from "./components/Footer";
+
 
 const { Home, Templates, Atschecker, ResumeBuilder, Resumereview, About  } = pages;
 
@@ -16,7 +16,6 @@ function App(): JSX.Element {
         <Route path="/resumereview" element={<Resumereview />} /> 
         <Route path="/about" element={<About />} />
       </Routes>
-      <Footer/>
     </Router>
   );
 }
