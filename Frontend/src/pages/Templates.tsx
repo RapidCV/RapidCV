@@ -1,6 +1,6 @@
 function Templates(){
     return <>
-        <h1>Show Templates here...</h1>
+        <h1>Show Templates here</h1>
     </>
 }
 

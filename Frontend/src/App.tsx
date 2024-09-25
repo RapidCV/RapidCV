@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import pages from "./pages/pages";
 import Footer from "./components/Footer";
 
-const { Home, Templates, Atschecker, ResumeBuilder, Resumereview, About, Pricing  } = pages;
+const { Home, Templates, Atschecker, ResumeBuilder, Resumereview, About  } = pages;
 
 function App(): JSX.Element {
   return (
