@@ -1,8 +1,8 @@
 
-function Homepage(){
+function Home(){
     return <>
         <button>Create Resume</button>
     </>
 }
 
-export default Homepage;
+export default Home;
