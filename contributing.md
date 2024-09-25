@@ -44,6 +44,32 @@ Go to the original repository and click on the "Pull Requests" tab. Click the "N
 * __Testing__: Ensure that your changes do not break existing functionality. Write tests for new features if applicable.
 * __Issues__: Before submitting a new feature request or bug report, please check if it already exists.
 
+## Best Practices for Collaboration in Git
+### 1. Use Branches for Each Feature/Task
+* Each contributor should create a new branch for every feature or task they might want to work on.
+This keeps the main branch (often master or main ) stable and free from partially completed
+work.
+* Name branches clearly, such as ```feature/user-auth , fix/header-alignment , or
+improvement/readme.```
+```bash
+git checkout -b feature/your-feature-name
+```
+### 2. Create Pull Requests (PRs)
+* When a contributor finishes their feature on a separate branch, they should create a __pull
+request (PR)__ to merge their branch into master/main .
+* This PR should be reviewed by at least one from our team. It’s a good opportunity to
+check for bugs, ensure code quality, and avoid conflicts.
+* In GitHub, you can create a PR after pushing your branch:
+```bash
+git push origin feature/your-feature-name
+```
+Then create a PR from the repository interface.
+
+### 3. Avoid Large, Unmanageable Branches
+* Keep your branches small and focused on a single task or feature. This makes reviewing
+easier and reduces the chances of conflicts.
+* It’s better to create multiple small PRs than a large one that becomes difficult to review.
+
 ### Code of Conduct
 By participating in this project, you agree to abide by our Code of Conduct.
 
