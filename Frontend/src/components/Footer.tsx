@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 export default function Footer(): JSX.Element {
@@ -15,7 +14,7 @@ export default function Footer(): JSX.Element {
             <p>Email: developers@rapidcv.com</p>
           </div>
 
-          {/* OUr Prodcuts */}
+          {/* Our Products */}
           <div>
             <h2 className="text-white font-semibold mb-4">Our Products</h2>
             <ul>
@@ -25,7 +24,6 @@ export default function Footer(): JSX.Element {
               <li><Link to="/templates" className="hover:underline">Templates</Link></li>
             </ul>
           </div>
-          
 
           <div>
             <h2 className="text-white font-semibold mb-4">Rapid CV</h2>
@@ -40,13 +38,13 @@ export default function Footer(): JSX.Element {
           {/* Social Media Links */}
           <div className="flex space-x-6">
             <a href="#" className="hover:text-gray-400" target='_blank' rel='noopener noreferrer'>
-              <FontAwesomeIcon icon={faTwitter} className="text-blue-400 w-6 h-6" />
+              <FaTwitter className="text-blue-400 w-6 h-6" />
             </a>
             <a href="#" className="hover:text-gray-400" target='_blank' rel='noopener noreferrer'>
-              <FontAwesomeIcon icon={faFacebook} className="text-blue-700 w-6 h-6" />
+              <FaFacebook className="text-blue-700 w-6 h-6" />
             </a>
             <a href="#" className="hover:text-gray-400" target='_blank' rel='noopener noreferrer'>
-              <FontAwesomeIcon icon={faLinkedin} className="text-blue-600 w-6 h-6" />
+              <FaLinkedin className="text-blue-600 w-6 h-6" />
             </a>
           </div>
 
