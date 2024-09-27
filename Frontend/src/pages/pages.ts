@@ -5,6 +5,7 @@ import ResumeBuilder from "./ResumeBuilder";
 import Resumereview from "./Resumereview";
 import About from "./About";
 import Faq from "./Faq";
+import Privacyandpolicy from "./Privacyandpolicy";
 
 const pages: { [key: string]: React.ComponentType } = {
     Home,
@@ -14,6 +15,7 @@ const pages: { [key: string]: React.ComponentType } = {
     Resumereview,
     About,
     Faq,
+    Privacyandpolicy,
 };
 
 export default pages;
