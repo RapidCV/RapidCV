@@ -29,7 +29,8 @@ export default function Footer(): JSX.Element {
             <h2 className="text-white font-semibold mb-4">Rapid CV</h2>
             <ul>
               <li><Link to="/home" className="hover:underline">Home</Link></li>
-              <li><Link to="/about" className="hover:underline">About Us</Link></li>
+              <li><Link to="/faq" className="hover:underline">FAQ</Link></li>
+              <li><Link to="/faq" className="hover:underline">Contact</Link></li>
             </ul>
           </div>
         </div>
@@ -39,9 +40,6 @@ export default function Footer(): JSX.Element {
           <div className="flex space-x-6">
             <a href="#" className="hover:text-gray-400" target='_blank' rel='noopener noreferrer'>
               <FaTwitter className="text-blue-400 w-6 h-6" />
-            </a>
-            <a href="#" className="hover:text-gray-400" target='_blank' rel='noopener noreferrer'>
-              <FaFacebook className="text-blue-700 w-6 h-6" />
             </a>
             <a href="#" className="hover:text-gray-400" target='_blank' rel='noopener noreferrer'>
               <FaLinkedin className="text-blue-600 w-6 h-6" />

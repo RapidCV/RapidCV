@@ -1,9 +1,9 @@
 import Layout from "../components/Layout";
 
-function Support(){
+function Faq(){
     return <Layout>
-        <h1>Contact Us</h1>
+        <h1>Frequently Asked Questions</h1>
     </Layout>
 }
 
-export default Support;
+export default Faq;
