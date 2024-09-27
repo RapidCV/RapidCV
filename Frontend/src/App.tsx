@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import pages from "./pages/pages";
 
 
-const { Home, Templates, Atschecker, ResumeBuilder, Resumereview, About, Support  } = pages;
+const { Home, Templates, Atschecker, ResumeBuilder, Resumereview, About, Faq  } = pages;
 
 function App(): JSX.Element {
   return (
@@ -15,7 +15,7 @@ function App(): JSX.Element {
         <Route path="/resumebuilder" element={<ResumeBuilder />} /> 
         <Route path="/resumereview" element={<Resumereview />} /> 
         <Route path="/about" element={<About />} />
-        <Route path="/support" element={<Support />} />
+        <Route path="/faq" element={<Faq />} />
       </Routes>
     </Router>
   );

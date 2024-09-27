@@ -96,12 +96,12 @@ export default function Navbar() {
 
             {/* Support Button */}
             <Link
-              to="/support"
+              to="/faq"
               className={`px-3 py-2 rounded-md text-sm font-medium ${
-                location.pathname === "/support" ? "font-bold text-white" : "text-gray-300"
+                location.pathname === "/faq" ? "font-bold text-white" : "text-gray-300"
               } hover:font-bold hover:text-white`}
             >
-              Support
+              FAQ
             </Link>
 
             {/* GitHub Link */}
