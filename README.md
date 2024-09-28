@@ -1,6 +1,5 @@
 
-![Rapid CV Logo]()
-
+<img src="https://github.com/advaithreddy/RapidCV/blob/main/Frontend/src/assets/logo.svg" alt="Rapid CV Logo" width="70" style="margin-right: 20px;" />
 
 # Rapid CV
 
@@ -33,7 +32,9 @@ Frontend
 
 Backend
 ```bash
-    cd Backend
+  cd Backend
+  npm install
+  npm run dev
 ```
     
 ## Contributing
