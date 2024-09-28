@@ -48,7 +48,7 @@ Please adhere to this project's `code of conduct`.
 
 ## License
 
-[MIT]()
+[MIT](https://github.com/RapidCV/RapidCV/blob/main/LICENSE)
 
 
 ## Feedback
