@@ -5,10 +5,6 @@
 
 Rapid CV is a free, open-source software designed to help individuals across various domains create ATS-friendly resumes. With its user-friendly interface and powerful features, Rapid CV can significantly enhance your productivity by up to 20%. Whether you’re a recent graduate or a seasoned professional, this tool simplifies the resume-building process, ensuring your skills and experiences stand out to potential employers.
 
-## Documentation
-
-[Documentation]()
-
 
 ## Tech Stack
 
