@@ -43,6 +43,7 @@ Go to the original repository and click on the "Pull Requests" tab. Click the "N
 * __Documentation__: Update documentation if you add new features or modify existing ones.
 * __Testing__: Ensure that your changes do not break existing functionality. Write tests for new features if applicable.
 * __Issues__: Before submitting a new feature request or bug report, please check if it already exists.
+* __For Maintainers__: No Force Pushing allowed, maintain the Good practice.
 
 ## Best Practices for Collaboration in Git
 ### 1. Use Branches for Each Feature/Task
